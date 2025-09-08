@@ -12,5 +12,7 @@ update huineng_number set huiguo='TT1001',is_used='1' where revo='107239';
 YZ-T006
 
 这又是一个测试，查看commit后push到github之后是否能成功
+修改仓库名称后的push测试
+
 
 
