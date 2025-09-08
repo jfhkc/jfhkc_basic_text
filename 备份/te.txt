@@ -1,0 +1,35 @@
+            a.oe_number 
+			,min(b.full_model_for_api_id) as full_jsmodel_id
+			,c.id as simple_jsmodel_id
+			,min(c.brand) as brand
+			,min(c.factory) as factory
+			,min(c.model_year) as model_year
+			,min(c.series) as series
+			,min(c.model) as model
+			,min(c.cc) as cc
+			,min(c.engine_no) as engine_no
+			,min(c.fuel_type) as fuel_type
+			,min(c.kw) as kw
+			,min(c.hp) as hp
+			,min(c.date_begin) as date_begin
+			,min(c.date_end) as date_end
+
+select tsn.isgather
+			,tsn.oe_number as `采集的oe号`
+			,tsn.`汽车品牌`
+			,tono.oe_number_ori
+			,tsn.`零件编号`
+			,min(b.full_model_for_api_id) as full_jsmodel_id
+			,smfa.id
+			,min(smfa.brand) 
+			,min(smfa.factory) 
+			,min(smfa.model_year) 
+			,min(smfa.series) 
+			,min(smfa.model) 
+			,min(smfa.cc) 
+			,min(smfa.engine_no) 
+			,min(smfa.fuel_type) 
+			,min(smfa.kw) 
+			,min(smfa.hp) 
+			,min(smfa.date_begin) 
+			,min(smfa.date_end) 			

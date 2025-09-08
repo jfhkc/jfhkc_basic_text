@@ -1,0 +1,16 @@
+107239
+107240
+107241
+107242
+107243
+107244
+107245
+107246
+107247
+update huineng_number set huiguo='TT1001',is_used='1' where revo='107239';
+
+YZ-T006
+
+测试git history 插件
+
+

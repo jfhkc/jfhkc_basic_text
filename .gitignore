@@ -1,0 +1,39 @@
+# 忽略虚拟环境目录（最常见的原因！）
+venv/
+.env/
+env/
+
+# 忽略Python编译缓存和发行文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 忽略IDE和编辑器设置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略日志和数据库文件
+*.log
+*.sqlite3
